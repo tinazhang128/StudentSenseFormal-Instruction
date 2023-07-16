@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>StudentSense Study</title>
+    <link rel="stylesheet" href="styles.css">
+	<script type="text/javascript">
+		function copy_data(containerId) {
+		  var container = document.getElementById(containerId); // Get the element by ID
+		  var range = document.createRange();
+		  range.selectNode(container);
+		  window.getSelection().removeAllRanges(); 
+		  window.getSelection().addRange(range); 
+		  document.execCommand("copy");
+		}
+	</script>
+</head>
+<body style="margin:100;padding:0">
+    <main role="main" class="container">
+      <h1 class="mt-5">StudentSense Study</h1>
+      <p class="lead">Hello! Thank you for participating in the StudentSense study! Please follow the steps below to join the StudentSense study. If you have any questions, please email our researcher, Tianyi Zhang, at tianyiz4@student.unimelb.edu.au.</p>
+	  
+	  <h2>Set-up steps</h2>
+	  <ol>
+		<li>If you have previously installed AWARE-Light during the test phase or for another study, please uninstall the application.</li>
+		<li>Download and install AWARE-Light by clicking <a href="https://aware-light-apks.s3.ap-southeast-2.amazonaws.com/aware-light-4.1.1.light.bundle.apk">here</a>. Please allow a minute for the app to adapt to your phone during installation.</li>
+		<li>Grant all necessary permissions by pressing “Allow” to AWARE for accessing sensors.</li>
+		<li>Tap on "JOIN A STUDY" and enter the study URL and password:
+		  <ul>
+			<li><a href="XXX"><span id="study_config1">https://go.unimelb.edu.au/a6hs</span></a> <img src="copy-icon.png" onclick="copy_data('study_config1')" /></li>
+			<li>Password: <span id="password">u6@dig^ts7r&ig3*^m2o!u8p</span></a> <img src="copy-icon.png" onclick="copy_data('password')" /></li>
+		  </ul>
+		</li>
+		<li>Enter your <b>registered email</b>> and tap on "SIGN UP"</li>
+		<li>
+			Open Settings → select "Accessibility" → turn accessibility on for AWARE-Light. If you encounter any issues in this step, here is a demonstration video that may help: <a href="https://www.youtube.com/watch?v=0bcLjpfrmHw">Watch Video</a>. You may also apply these useful steps:
+			<ul>
+			  <li>On your Android device, open the Settings app.</li>
+			  <li>Tap Apps.</li>
+			  <li>Tap the app that you want to turn on a restricted setting for. Tip: If you can't find it, first tap See all apps or App info.</li>
+			  <li>Tap More and then Allow restricted settings.</li>
+			  <li>Follow the on-screen instructions.</li>
+			</ul>
+		</li>		  
+		<li>Capture a screenshot of your AWARE device ID and email it to Tianyi at tianyiz4@student.unimelb.edu.au. If you ever uninstall and reinstall the app, please remember to promptly send the screenshot of the AWARE device ID to Tianyi.</li>
+      </ol>
+	  <p>&nbsp;</p>
+	  <p style="text-align:center;">
+	    Figure 1. Installation of AWARE-Light<br />
+	    <img src="step1.png" width="250"/>
+	  </p>
+	  <p>&nbsp;</p>
+	  <p style="text-align:center;">
+	    Figure 2. Examples of granting permissions<br />
+	    <img src="step2.png" width="750"/>
+	  </p>
+	  <p>&nbsp;</p>
+	  <p style="text-align:center;">
+	    Figure 3. Join study - link and password can be found in Tianyi's email<br />
+	    <img src="step3.png" width="250"/>
+	  </p>
+	  <p>&nbsp;</p>
+	  <p style="text-align:center;">
+	    Figure 4. Enter registered email<br />
+	    <img src="step4.png" width="250"/>
+	  </p>
+	  <p>&nbsp;</p>
+	  <p style="text-align:center;">
+	    Figure 5. Turn accessibility on for AWARE-Light<br />
+	    <img src="step5.png" width="500"/>
+	  </p>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <h2>Information about the study that might be of interest to you</h2>
+	  <h3>Turning on/off sensors</h3>
+	  <p>To turn on or off data collection from certain sensors, you may adjust through AWARE-Light panel as shown in Figure 6:</p>
+	  <p style="text-align:center;">
+	    Figure 6. Turning on/off sensors<br />
+	    <img src="adjustments.png" width="500"/>
+	  </p>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <h3>Text collected applications</h3>
+	  <p>Textual information will also be collected for certain apps. Specifically, the app will record the textual information from the following apps:</p>
+	  <ol>
+		<li>Twitter</li>
+		<li>Facebook</li>
+		<li>Reddit</li>
+		<li>Pinterest</li>
+		<li>Chrome</li>
+		<li>Google</li>
+		<li>Firefox</li>		
+		<li>News & Magazines (category)</li>
+		<li>Books & Reference (category)</li>
+	  </ol>
+    </main>
+</body>
+</html>
